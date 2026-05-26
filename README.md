@@ -59,6 +59,12 @@ cargo build --release
 ```
 
 The binary is at `target/release/hues`.
+If SCIP is not installed on your system, running the binary directly can lead to problems. 
+
+Therefore run an instance via
+```bash
+cargo run --release -- [arguments] /path/to/instance
+```
 
 ## Quick Start
 
